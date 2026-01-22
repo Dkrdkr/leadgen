@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Block admin and thank you pages from search engines
+Disallow: /?admin=1
+Disallow: /?thankyou=1
+
+# Sitemap location
+Sitemap: https://nettoyage-suisse.ch/sitemap.xml

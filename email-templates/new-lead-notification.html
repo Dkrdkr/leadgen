@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nouveau Lead - NetPro Suisse</title>
+</head>
+<body style="margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+    <table width="100%" cellpadding="0" cellspacing="0" style="max-width: 600px; margin: 40px auto; background: #ffffff; border-radius: 24px; overflow: hidden; box-shadow: 0 20px 60px rgba(0,0,0,0.2);">
+        <!-- Header -->
+        <tr>
+            <td style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 40px 30px; text-align: center;">
+                <div style="width: 60px; height: 60px; background: white; border-radius: 16px; margin: 0 auto 20px; display: inline-flex; align-items: center; justify-center;">
+                    <span style="font-size: 32px;">✨</span>
+                </div>
+                <h1 style="margin: 0; color: white; font-size: 32px; font-weight: 900;">Nouveau Lead !</h1>
+                <p style="margin: 10px 0 0; color: rgba(255,255,255,0.9); font-size: 16px;">Tier {{TIER}} • Score {{SCORE}}/100</p>
+            </td>
+        </tr>
+
+        <!-- Tier Badge -->
+        <tr>
+            <td style="padding: 30px; text-align: center;">
+                <div style="display: inline-block; padding: 12px 24px; background: {{TIER_COLOR}}; border-radius: 12px; font-weight: 900; font-size: 20px; color: white; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                    🏆 TIER {{TIER}} - {{TIER_LABEL}}
+                </div>
+            </td>
+        </tr>
+
+        <!-- Lead Info -->
+        <tr>
+            <td style="padding: 0 30px 30px;">
+                <div style="background: linear-gradient(135deg, #f5f7fa 0%, #e3e9f2 100%); border-radius: 16px; padding: 24px; margin-bottom: 20px;">
+                    <h2 style="margin: 0 0 20px; font-size: 20px; font-weight: 800; color: #2d3748;">📋 Détails du Lead</h2>
+
+                    <table width="100%" cellpadding="8" cellspacing="0">
+                        <tr>
+                            <td style="color: #718096; font-size: 14px; font-weight: 600;">Service :</td>
+                            <td style="color: #2d3748; font-size: 14px; font-weight: 700; text-align: right;">{{SERVICE_TYPE}}</td>
+                        </tr>
+                        <tr>
+                            <td style="color: #718096; font-size: 14px; font-weight: 600;">Localité :</td>
+                            <td style="color: #2d3748; font-size: 14px; font-weight: 700; text-align: right;">📍 {{LOCALITY}}</td>
+                        </tr>
+                        <tr>
+                            <td style="color: #718096; font-size: 14px; font-weight: 600;">Type de bien :</td>
+                            <td style="color: #2d3748; font-size: 14px; font-weight: 700; text-align: right;">{{PROPERTY_TYPE}} - {{ROOMS}} - {{SURFACE}}</td>
+                        </tr>
+                        <tr>
+                            <td style="color: #718096; font-size: 14px; font-weight: 600;">Date souhaitée :</td>
+                            <td style="color: #2d3748; font-size: 14px; font-weight: 700; text-align: right;">📅 {{DATE}}</td>
+                        </tr>
+                        <tr>
+                            <td style="color: #718096; font-size: 14px; font-weight: 600;">Urgence :</td>
+                            <td style="color: #2d3748; font-size: 14px; font-weight: 700; text-align: right;">⚡ {{URGENCY}}</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <!-- Prestations -->
+                <div style="margin-bottom: 20px;">
+                    <h3 style="margin: 0 0 12px; font-size: 16px; font-weight: 800; color: #2d3748;">✅ Prestations demandées ({{EXTRAS_COUNT}})</h3>
+                    <div>
+                        {{EXTRAS_LIST}}
+                    </div>
+                </div>
+
+                <!-- Tags -->
+                {{#if TAGS}}
+                <div style="margin-bottom: 20px;">
+                    <h3 style="margin: 0 0 12px; font-size: 16px; font-weight: 800; color: #2d3748;">🏷️ Tags</h3>
+                    <div>
+                        {{TAGS}}
+                    </div>
+                </div>
+                {{/if}}
+
+                <!-- Notes -->
+                {{#if NOTES}}
+                <div style="background: #fff8e1; border-left: 4px solid #fbbf24; border-radius: 8px; padding: 16px; margin-bottom: 20px;">
+                    <h3 style="margin: 0 0 8px; font-size: 14px; font-weight: 800; color: #92400e;">💬 Notes complémentaires</h3>
+                    <p style="margin: 0; color: #78350f; font-size: 14px; line-height: 1.6;">{{NOTES}}</p>
+                </div>
+                {{/if}}
+
+                <!-- Photos -->
+                {{#if HAS_PHOTOS}}
+                <div style="margin-bottom: 20px;">
+                    <h3 style="margin: 0 0 12px; font-size: 16px; font-weight: 800; color: #2d3748;">📷 Photos jointes ({{PHOTOS_COUNT}})</h3>
+                    <p style="margin: 0; color: #10b981; font-size: 13px;">✓ Le client a fourni des photos du lieu</p>
+                </div>
+                {{/if}}
+            </td>
+        </tr>
+
+        <!-- Contact Info -->
+        <tr>
+            <td style="padding: 0 30px 30px;">
+                <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 16px; padding: 24px; color: white;">
+                    <h2 style="margin: 0 0 16px; font-size: 20px; font-weight: 800;">👤 Coordonnées Client</h2>
+
+                    <table width="100%" cellpadding="6" cellspacing="0">
+                        <tr>
+                            <td style="color: rgba(255,255,255,0.8); font-size: 14px;">Prénom :</td>
+                            <td style="color: white; font-size: 16px; font-weight: 700; text-align: right;">{{FIRST_NAME}}</td>
+                        </tr>
+                        <tr>
+                            <td style="color: rgba(255,255,255,0.8); font-size: 14px;">Téléphone :</td>
+                            <td style="color: white; font-size: 16px; font-weight: 700; text-align: right;">📞 {{PHONE}}</td>
+                        </tr>
+                        <tr>
+                            <td style="color: rgba(255,255,255,0.8); font-size: 14px;">Email :</td>
+                            <td style="color: white; font-size: 16px; font-weight: 700; text-align: right;">✉️ {{EMAIL}}</td>
+                        </tr>
+                        <tr>
+                            <td style="color: rgba(255,255,255,0.8); font-size: 14px;">Contact préféré :</td>
+                            <td style="color: white; font-size: 16px; font-weight: 700; text-align: right;">{{CONTACT_PREFERENCE}}</td>
+                        </tr>
+                        <tr>
+                            <td style="color: rgba(255,255,255,0.8); font-size: 14px;">Créneau :</td>
+                            <td style="color: white; font-size: 16px; font-weight: 700; text-align: right;">🕐 {{TIME_WINDOW}}</td>
+                        </tr>
+                    </table>
+                </div>
+            </td>
+        </tr>
+
+        <!-- CTA -->
+        <tr>
+            <td style="padding: 0 30px 30px; text-align: center;">
+                <a href="{{DASHBOARD_URL}}" style="display: inline-block; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; text-decoration: none; padding: 18px 40px; border-radius: 12px; font-weight: 900; font-size: 18px; box-shadow: 0 8px 20px rgba(245, 87, 108, 0.4);">
+                    🚀 Voir dans le Dashboard
+                </a>
+                <p style="margin: 16px 0 0; color: #718096; font-size: 13px;">
+                    <strong>Action rapide !</strong> Contactez le client dans les <strong>2 heures</strong> pour maximiser vos chances de conversion.
+                </p>
+            </td>
+        </tr>
+
+        <!-- Footer -->
+        <tr>
+            <td style="background: #f7fafc; padding: 30px; text-align: center; border-top: 1px solid #e2e8f0;">
+                <p style="margin: 0 0 8px; color: #2d3748; font-weight: 700; font-size: 16px;">NetPro Suisse</p>
+                <p style="margin: 0 0 16px; color: #718096; font-size: 13px;">Génération de leads qualifiés pour le nettoyage</p>
+                <p style="margin: 0; color: #a0aec0; font-size: 12px;">
+                    Lead ID: {{LEAD_ID}} • Reçu le {{CREATED_AT}}
+                </p>
+                <p style="margin: 8px 0 0; font-size: 11px; color: #cbd5e0;">
+                    <a href="{{UNSUBSCRIBE_URL}}" style="color: #cbd5e0; text-decoration: none;">Se désabonner</a> •
+                    <a href="https://netpro-suisse.ch/privacy" style="color: #cbd5e0; text-decoration: none;">Confidentialité</a>
+                </p>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
