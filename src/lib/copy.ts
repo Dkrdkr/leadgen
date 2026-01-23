@@ -102,7 +102,7 @@ export const copyA: CopyContent = {
     subtitle: "Vous avez déjà assez de stress avec votre déménagement. Voici ce qui arrive quand vous choisissez la mauvaise entreprise...",
     issues: [
       {
-        icon: "AlertTriangle",
+        icon: "Search",
         title: "L'entreprise bâcle le travail — votre régie refuse l'état des lieux",
         description: "Résultat : CHF 800-2000 retenus sur votre caution. Des traces de calcaire dans la douche, des joints mal nettoyés, le four pas dégraissé... La régie refuse de valider. L'entreprise ne répond plus. VOUS payez les dégâts.",
       },
@@ -130,7 +130,7 @@ export const copyA: CopyContent = {
     title: "La SEULE plateforme qui garantit votre caution — pas juste un devis",
     benefits: [
       {
-        icon: "Shield",
+        icon: "CheckCircle2",
         title: "Garantie re-passage GRATUIT jusqu'à validation 100%",
         description: "Votre régie trouve un problème après le nettoyage ? L'entreprise DOIT repasser sans facturer. C'est écrit noir sur blanc dans notre contrat partenaire. Vous ne perdez JAMAIS votre caution à cause d'un travail bâclé. JAMAIS.",
       },
@@ -140,7 +140,7 @@ export const copyA: CopyContent = {
         description: "Une seule mauvaise prestation = exclusion définitive du réseau Nettooyage. Les entreprises le savent. Résultat ? Elles font le job à 200% du premier coup parce qu'elles veulent rester dans notre réseau. Votre caution > leur ego.",
       },
       {
-        icon: "CheckCircle2",
+        icon: "Target",
         title: "1 seule entreprise triée sur le volet (pas 10 cowboys)",
         description: "On analyse 10+ critères (canton, urgence, surface, spécialité) pour trouver L'entreprise qui MATCHE parfaitement. UNE seule vous contacte. Celle qui a prouvé qu'elle fait le job. Pas un annuaire de nettoyeurs amateurs.",
       },
