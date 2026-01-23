@@ -10,9 +10,9 @@ export function Header() {
       transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
       className="glass sticky top-0 z-50 border-b border-white/20"
     >
-      <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
-        <div className="flex items-center gap-3">
-          <img src="/logo.png" alt="Nettooyage" className="h-12 w-auto" />
+      <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+        <div className="flex items-center">
+          <img src="/logo.png" alt="Nettooyage" className="h-16 w-auto" />
         </div>
 
         <nav className="hidden md:flex items-center gap-8">
