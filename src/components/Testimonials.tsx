@@ -108,8 +108,8 @@ export function Testimonials() {
             </div>
             <div className="h-12 w-px bg-gray-300" />
             <div>
-              <p className="text-3xl font-black gradient-text">94%</p>
-              <p className="text-sm text-gray-600">Dépôts récupérés</p>
+              <p className="text-3xl font-black gradient-text">100%</p>
+              <p className="text-sm text-gray-600">Validation par la Régie</p>
             </div>
             <div className="h-12 w-px bg-gray-300" />
             <div>

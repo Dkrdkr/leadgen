@@ -93,8 +93,8 @@ export function CityLinks() {
             </p>
             <p>
               Les entreprises partenaires de notre réseau connaissent les exigences strictes des régies immobilières suisses et garantissent
-              un travail conforme aux standards pour maximiser vos chances de <strong>récupérer votre caution intégralement</strong>.
-              Taux de satisfaction : 94% avec validation état des lieux.
+              un travail conforme aux standards. <strong>100% de validation garantie par la Régie</strong> avec re-passage gratuit si nécessaire
+              jusqu'à validation complète de votre état des lieux.
             </p>
           </div>
         </motion.div>

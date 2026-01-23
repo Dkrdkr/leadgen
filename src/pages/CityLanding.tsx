@@ -220,9 +220,9 @@ export function CityLanding({ citySlug }: CityLandingProps) {
               className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto"
             >
               <div className="glass rounded-2xl p-6 text-center">
-                <div className="text-4xl font-black gradient-text mb-2">94%</div>
+                <div className="text-4xl font-black gradient-text mb-2">100%</div>
                 <div className="text-sm text-gray-700 font-medium">
-                  Taux de validation état des lieux à {city.name}
+                  Validation garantie par la Régie à {city.name}
                 </div>
               </div>
               <div className="glass rounded-2xl p-6 text-center">
