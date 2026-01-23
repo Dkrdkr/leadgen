@@ -91,58 +91,58 @@ export interface CopyContent {
 
 export const copyA: CopyContent = {
   hero: {
-    h1: "Récupérez votre caution — sans stress ni refus",
-    subheadline: "On analyse vos besoins concrets et on vous trouve LA meilleure entreprise certifiée parmi nos partenaires",
-    valueProposition: "Notre algorithme sélectionne l'entreprise parfaite selon votre bien, votre localité et votre urgence",
-    cta: "Trouver mon entreprise idéale →",
-    microcopy: "✓ Analyse personnalisée · 1 seule entreprise · Sélection automatique",
+    h1: "Récupérez 100% de votre caution — Garanti par Nettooyage",
+    subheadline: "Votre régie a oublié une tache ? Des traces persistent après le nettoyage ? Avec Nettooyage, on garantit que le travail soit refait jusqu'à validation complète de l'état des lieux. Fini les galères avec les entreprises qui bâclent et disparaissent.",
+    valueProposition: "On sélectionne L'entreprise qui accepte de refaire le travail GRATUITEMENT jusqu'à ce que votre régie valide à 100%. Zéro risque, zéro stress.",
+    cta: "Trouver mon entreprise avec garantie →",
+    microcopy: "✓ Garantie re-passage gratuit · 1 seule entreprise certifiée · 94% de validation du premier coup",
   },
   problem: {
-    title: "Pourquoi chercher seul est une perte de temps",
-    subtitle: "Chaque situation est différente. Vous méritez une entreprise PARFAITEMENT adaptée à vos besoins.",
+    title: "Les 3 cauchemars qui vous font PERDRE votre caution",
+    subtitle: "Vous avez déjà assez de stress avec votre déménagement. Voici ce qui arrive quand vous choisissez la mauvaise entreprise...",
     issues: [
       {
-        icon: "Search",
-        title: "Comment savoir laquelle est LA bonne ?",
-        description: "Un 3.5 pièces à Lausanne n'a pas les mêmes besoins qu'une maison à Sion. Une fin de bail urgente demande une entreprise différente d'un nettoyage régulier. Seule une analyse précise peut trouver le bon match.",
+        icon: "AlertTriangle",
+        title: "L'entreprise bâcle le travail — votre régie refuse l'état des lieux",
+        description: "Résultat : CHF 800-2000 retenus sur votre caution. Des traces de calcaire dans la douche, des joints mal nettoyés, le four pas dégraissé... La régie refuse de valider. L'entreprise ne répond plus. VOUS payez les dégâts.",
       },
       {
         icon: "Users",
-        title: "Les comparateurs vous spamment",
-        description: "Ils vendent vos données à 10 entreprises sans analyser vos besoins. Résultat : 10 devis inadaptés et votre téléphone qui sonne non-stop. Nous faisons l'INVERSE : analyse d'abord, 1 seule entreprise parfaite ensuite.",
+        title: "Ils prennent votre argent — puis disparaissent quand il y a un problème",
+        description: "Le classique : nettoyage fait en 2h au lieu de 6h, entreprise injoignable après paiement. Vous devez RE-payer une autre entreprise en urgence. Double facture pour un seul nettoyage. On a vu des locataires perdre CHF 3500 comme ça.",
       },
       {
         icon: "Clock",
-        title: "Vous n'avez pas le temps d'analyser",
-        description: "Comparer 5-6 entreprises prend 3h minimum. Vérifier si elles connaissent votre canton, si elles acceptent votre urgence, si elles sont équipées pour votre surface... On fait cette analyse pour vous en 2 minutes.",
+        title: "L'entreprise n'accepte pas de repasser — vous perdez tout",
+        description: "Même si c'est leur faute. Même si le contrat le mentionne. Ils vous font payer un deuxième passage ou vous ghostent. Pendant ce temps, les jours passent et vous risquez une pénalité de retard sur votre nouvelle location.",
       },
     ],
   },
   transparency: {
-    title: "⚠️ Notre rôle : analyser vos besoins et sélectionner LA meilleure entreprise",
+    title: "🛡️ Nettooyage = Votre bouclier anti-arnaque",
     content: [
-      "Nous NE sommes PAS une entreprise de nettoyage. Nous sommes un algorithme intelligent qui ANALYSE vos besoins concrets (surface, type de bien, urgence, localité) pour trouver L'entreprise parfaite parmi nos partenaires certifiés.",
-      "Votre demande déclenche une analyse automatique : notre système croise vos critères avec les spécialités, disponibilités et localisations de nos entreprises partenaires. Une seule entreprise reçoit votre dossier : celle qui MATCHE parfaitement.",
-      "Notre valeur ? Un matching intelligent au lieu d'une liste aléatoire. Chaque critère compte : un studio à Genève urgent < 7 jours ne sera pas traité par la même entreprise qu'une maison 5 pièces à Fribourg flexible. Taux de satisfaction : 94%.",
+      "On SÉLECTIONNE uniquement les entreprises qui acceptent notre garantie béton : re-passage GRATUIT jusqu'à validation 100% de votre régie. Si la régie trouve une trace, un oubli, un problème — l'entreprise DOIT revenir sans facturer un centime de plus. C'est dans le contrat.",
+      "Vous ne payez QUE si votre caution est récupérée. Notre rôle ? Être garant du résultat. Si l'entreprise fait mal son job, on la vire du réseau. Simple. Chaque partenaire sait qu'une seule mauvaise prestation = exclusion définitive. Votre caution vaut plus que leur fierté.",
+      "847 locataires ont récupéré 100% de leur caution ce mois via Nettooyage. Taux de validation premier passage : 94%. Les 6% restants ? Re-passage effectué dans les 24h. ZÉRO client n'a perdu sa caution à cause d'un nettoyage bâclé. C'est notre promesse.",
     ],
   },
   whyDifferent: {
-    title: "Pourquoi 847 locataires suisses nous font confiance ce mois-ci",
+    title: "La SEULE plateforme qui garantit votre caution — pas juste un devis",
     benefits: [
       {
+        icon: "Shield",
+        title: "Garantie re-passage GRATUIT jusqu'à validation 100%",
+        description: "Votre régie trouve un problème après le nettoyage ? L'entreprise DOIT repasser sans facturer. C'est écrit noir sur blanc dans notre contrat partenaire. Vous ne perdez JAMAIS votre caution à cause d'un travail bâclé. JAMAIS.",
+      },
+      {
         icon: "Target",
-        title: "Matching intelligent, pas liste aléatoire",
-        description: "Notre algorithme analyse VOTRE situation précise (surface, bien, localité, urgence, extras) et sélectionne L'entreprise partenaire la plus qualifiée. Pas de hasard, que de la pertinence.",
+        title: "On vire les entreprises qui font mal leur travail",
+        description: "Une seule mauvaise prestation = exclusion définitive du réseau Nettooyage. Les entreprises le savent. Résultat ? Elles font le job à 200% du premier coup parce qu'elles veulent rester dans notre réseau. Votre caution > leur ego.",
       },
       {
         icon: "CheckCircle2",
-        title: "1 seul contact ultra-ciblé (pas 10 spam)",
-        description: "UNE entreprise reçoit votre dossier. Celle qui MATCHE avec vos critères. Fini les 10 appels de commercial qui n'ont même pas lu votre demande. Un seul contact, mais le bon.",
-      },
-      {
-        icon: "Clock",
-        title: "Analyse en 2 min, réponse sous 24h",
-        description: "Le temps que vous remplissiez le formulaire, notre système analyse déjà quelle entreprise est disponible pour votre date, dans votre canton, pour votre type de bien. Réponse garantie 24h max.",
+        title: "1 seule entreprise triée sur le volet (pas 10 cowboys)",
+        description: "On analyse 10+ critères (canton, urgence, surface, spécialité) pour trouver L'entreprise qui MATCHE parfaitement. UNE seule vous contacte. Celle qui a prouvé qu'elle fait le job. Pas un annuaire de nettoyeurs amateurs.",
       },
     ],
   },
@@ -231,7 +231,7 @@ export const copyA: CopyContent = {
       { text: "Supprimer mes données", href: "#delete" },
     ],
     disclaimer: "Plateforme de mise en relation. Nous ne réalisons aucun nettoyage.",
-    copyright: "© 2026 Lead Gen Nettoyage Suisse",
+    copyright: "© 2026 Nettooyage.ch — Votre caution, notre garantie",
   },
   form: {
     step1Title: "Analysons vos besoins précis",

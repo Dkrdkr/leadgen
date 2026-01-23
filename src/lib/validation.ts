@@ -100,14 +100,8 @@ export const leadPayloadSchema = z.object({
   ], { errorMap: () => ({ message: "Veuillez sélectionner une surface approximative" }) }),
 
   // Timing
-  moveOutDate: z
-    .string()
-    .regex(/^\d{4}-\d{2}-\d{2}$/, "Format de date invalide")
-    .optional(),
-  desiredDate: z
-    .string()
-    .regex(/^\d{4}-\d{2}-\d{2}$/, "Format de date invalide")
-    .optional(),
+  moveOutDate: z.string().optional(),
+  desiredDate: z.string().optional(),
   urgency: z.enum(["Urgent (<7j)", "Normal (7-30j)", "Flexible (>30j)"], {
     errorMap: () => ({ message: "Veuillez sélectionner le niveau d'urgence" }),
   }),
@@ -241,8 +235,8 @@ export const stepOneSchema = z.object({
     "150m²+",
     "Inconnue",
   ]),
-  moveOutDate: z.string().regex(/^\d{4}-\d{2}-\d{2}$/).optional().or(z.literal("")),
-  desiredDate: z.string().regex(/^\d{4}-\d{2}-\d{2}$/).optional().or(z.literal("")),
+  moveOutDate: z.string().optional(),
+  desiredDate: z.string().optional(),
   urgency: z.enum(["Urgent (<7j)", "Normal (7-30j)", "Flexible (>30j)"]),
   extras: z.array(z.string()).default([]),
 });
