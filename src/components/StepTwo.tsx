@@ -259,14 +259,6 @@ export function StepTwo({ form }: StepTwoProps) {
         </div>
       </div>
 
-      <input
-        type="text"
-        {...register("honeypot" as any)}
-        tabIndex={-1}
-        autoComplete="off"
-        style={{ display: "none", position: "absolute", left: "-9999px" }}
-        aria-hidden="true"
-      />
     </div>
   );
 }

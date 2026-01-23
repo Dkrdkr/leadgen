@@ -115,7 +115,6 @@ export const leadPayloadSchema = z.object({
   // Prestations supplémentaires
   extras: z
     .array(z.string())
-    .min(1, "Veuillez sélectionner au moins une prestation")
     .refine(
       (arr) => arr.every((item) => availableExtras.includes(item)),
       "Prestation invalide sélectionnée"
@@ -231,9 +230,9 @@ export const stepOneSchema = z.object({
     "autre",
   ]),
   serviceTypeOther: z.string().max(100).optional(),
-  locality: z.string().min(2).max(100).optional(),
-  propertyType: z.enum(["Appartement", "Maison", "Bureau", "Commerce", "Autre"]).optional(),
-  rooms: z.enum(["Studio", "2", "3", "4", "5+", "Non applicable"]).optional(),
+  locality: z.string().min(2, "Veuillez indiquer la localité").max(100),
+  propertyType: z.enum(["Appartement", "Maison", "Bureau", "Commerce", "Autre"]),
+  rooms: z.enum(["Studio", "2", "3", "4", "5+", "Non applicable"]),
   approxSurface: z.enum([
     "<40m²",
     "40-70m²",
@@ -241,11 +240,11 @@ export const stepOneSchema = z.object({
     "100-150m²",
     "150m²+",
     "Inconnue",
-  ]).optional(),
+  ]),
   moveOutDate: z.string().regex(/^\d{4}-\d{2}-\d{2}$/).optional().or(z.literal("")),
   desiredDate: z.string().regex(/^\d{4}-\d{2}-\d{2}$/).optional().or(z.literal("")),
-  urgency: z.enum(["Urgent (<7j)", "Normal (7-30j)", "Flexible (>30j)"]).optional(),
-  extras: z.array(z.string()).optional(),
+  urgency: z.enum(["Urgent (<7j)", "Normal (7-30j)", "Flexible (>30j)"]),
+  extras: z.array(z.string()).default([]),
 });
 
 export const stepTwoSchema = z.object({
