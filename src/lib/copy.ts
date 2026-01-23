@@ -202,9 +202,9 @@ export const copyA: CopyContent = {
           "Parce que les deadlines de fin de bail sont serrées. L'entreprise doit pouvoir vous joindre VITE pour le devis + planifier l'intervention. Vous choisissez votre mode de contact préféré : appel, WhatsApp ou email.",
       },
       {
-        question: "Est-ce que ça marche vraiment pour récupérer mon dépôt ?",
+        question: "Est-ce que ça marche vraiment pour valider mon état des lieux ?",
         answer:
-          "Nos entreprises partenaires ont un taux de validation état des lieux de 94%. Elles connaissent EXACTEMENT les exigences des régies suisses (four, frigo, joints, sols, etc.). Pas de nettoyeur amateur qui fait ça 'à peu près'.",
+          "100% de validation finale garantie. Nos entreprises connaissent EXACTEMENT les exigences des régies suisses (four, frigo, joints, sols, etc.). Si la régie refuse, l'entreprise repasse gratuitement jusqu'à validation. Pas de nettoyeur amateur qui fait ça 'à peu près'.",
       },
       {
         question: "J'ai ma fin de bail dans 3 jours, c'est trop tard ?",
@@ -283,7 +283,7 @@ export const copyB: CopyContent = {
       "Notre algorithme analyse vos besoins et sélectionne L'entreprise parfaite : votre canton, votre urgence, votre type de bien.",
     valueProposition: "Matching intelligent basé sur 10+ critères au lieu d'une liste aléatoire d'entreprises",
     cta: "Lancer l'analyse de mes besoins →",
-    microcopy: "✓ Analyse personnalisée · 1 entreprise ciblée · Taux réussite 94%",
+    microcopy: "✓ Analyse personnalisée · 1 entreprise ciblée · 100% de validation garantie",
   },
 };
 

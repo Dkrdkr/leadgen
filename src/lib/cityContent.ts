@@ -28,7 +28,7 @@ export const cities: Record<string, CityContent> = {
     h1: "Nettoyage fin de bail à Genève — Trouvez l'entreprise parfaite",
     localContent: {
       intro: "Vous quittez votre logement à Genève et vous voulez récupérer votre caution intégralement ? Notre algorithme analyse vos besoins précis (surface, type de bien, urgence, prestations) et sélectionne LA meilleure entreprise de nettoyage certifiée parmi nos partenaires genevois.",
-      whyLocal: "Les régies genevoises sont particulièrement exigeantes sur l'état des lieux de sortie. Nos entreprises partenaires connaissent EXACTEMENT leurs critères : sols impeccables, joints de salle de bain, four décapé, vitres sans traces. Taux de validation : 94% à Genève.",
+      whyLocal: "Les régies genevoises sont particulièrement exigeantes sur l'état des lieux de sortie. Nos entreprises partenaires connaissent EXACTEMENT leurs critères : sols impeccables, joints de salle de bain, four décapé, vitres sans traces. 100% de validation garantie à Genève avec re-passage gratuit si nécessaire.",
       coverage: [
         "Genève ville (1200-1209)",
         "Carouge (1227)",
