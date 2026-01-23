@@ -91,58 +91,58 @@ export interface CopyContent {
 
 export const copyA: CopyContent = {
   hero: {
-    h1: "Récupérez 100% de votre caution — Garanti par Nettooyage",
-    subheadline: "Votre régie a oublié une tache ? Des traces persistent après le nettoyage ? Avec Nettooyage, on garantit que le travail soit refait jusqu'à validation complète de l'état des lieux. Fini les galères avec les entreprises qui bâclent et disparaissent.",
-    valueProposition: "On sélectionne L'entreprise qui accepte de refaire le travail GRATUITEMENT jusqu'à ce que votre régie valide à 100%. Zéro risque, zéro stress.",
+    h1: "État des lieux validé du 1er coup — Garanti par Nettooyage",
+    subheadline: "Votre régie trouve une trace ? Des joints pas nets ? Avec Nettooyage, l'entreprise DOIT repasser gratuitement jusqu'à validation complète. Fini les galères avec les nettoyeurs qui bâclent et disparaissent.",
+    valueProposition: "On sélectionne L'entreprise qui accepte de refaire GRATUITEMENT jusqu'à ce que votre régie valide. Pas de frais cachés, pas de 2ème facture.",
     cta: "Trouver mon entreprise avec garantie →",
     microcopy: "✓ Garantie re-passage gratuit · 1 seule entreprise certifiée · 94% de validation du premier coup",
   },
   problem: {
-    title: "Les 3 cauchemars qui vous font PERDRE votre caution",
-    subtitle: "Vous avez déjà assez de stress avec votre déménagement. Voici ce qui arrive quand vous choisissez la mauvaise entreprise...",
+    title: "Les 3 cauchemars qui coûtent cher en fin de bail",
+    subtitle: "État des lieux refusé = factures supplémentaires. Voici ce qui arrive avec les mauvaises entreprises...",
     issues: [
       {
         icon: "Search",
-        title: "L'entreprise bâcle le travail — votre régie refuse l'état des lieux",
-        description: "Résultat : CHF 800-2000 retenus sur votre caution. Des traces de calcaire dans la douche, des joints mal nettoyés, le four pas dégraissé... La régie refuse de valider. L'entreprise ne répond plus. VOUS payez les dégâts.",
+        title: "L'entreprise bâcle → votre régie refuse l'état des lieux",
+        description: "Résultat : CHF 800-2000 de frais de nettoyage supplémentaires facturés par la régie. Traces de calcaire, joints mal nettoyés, four pas dégraissé... La régie fait venir SA société et VOUS facture. L'entreprise ne répond plus.",
       },
       {
         icon: "Users",
-        title: "Ils prennent votre argent — puis disparaissent quand il y a un problème",
-        description: "Le classique : nettoyage fait en 2h au lieu de 6h, entreprise injoignable après paiement. Vous devez RE-payer une autre entreprise en urgence. Double facture pour un seul nettoyage. On a vu des locataires perdre CHF 3500 comme ça.",
+        title: "Ils prennent votre argent — puis disparaissent",
+        description: "Le classique : nettoyage bâclé en 2h au lieu de 6h, entreprise injoignable après. La régie refuse de valider. Vous devez RE-payer une autre entreprise en urgence + les frais de la régie. Double voire triple facture.",
       },
       {
         icon: "Clock",
-        title: "L'entreprise n'accepte pas de repasser — vous perdez tout",
-        description: "Même si c'est leur faute. Même si le contrat le mentionne. Ils vous font payer un deuxième passage ou vous ghostent. Pendant ce temps, les jours passent et vous risquez une pénalité de retard sur votre nouvelle location.",
+        title: "L'entreprise refuse de repasser — VOUS payez",
+        description: "Même si c'est leur faute. Ils vous ghostent ou exigent un 2ème paiement. Pendant ce temps, la régie engage SA société et vous envoie la facture majorée. Vous perdez des centaines de CHF sur un travail déjà payé.",
       },
     ],
   },
   transparency: {
-    title: "🛡️ Nettooyage = Votre bouclier anti-arnaque",
+    title: "🛡️ Nettooyage = Votre bouclier anti-factures cachées",
     content: [
       "On SÉLECTIONNE uniquement les entreprises qui acceptent notre garantie béton : re-passage GRATUIT jusqu'à validation 100% de votre régie. Si la régie trouve une trace, un oubli, un problème — l'entreprise DOIT revenir sans facturer un centime de plus. C'est dans le contrat.",
-      "Vous ne payez QUE si votre caution est récupérée. Notre rôle ? Être garant du résultat. Si l'entreprise fait mal son job, on la vire du réseau. Simple. Chaque partenaire sait qu'une seule mauvaise prestation = exclusion définitive. Votre caution vaut plus que leur fierté.",
-      "847 locataires ont récupéré 100% de leur caution ce mois via Nettooyage. Taux de validation premier passage : 94%. Les 6% restants ? Re-passage effectué dans les 24h. ZÉRO client n'a perdu sa caution à cause d'un nettoyage bâclé. C'est notre promesse.",
+      "Notre rôle ? Garantir le résultat final. Si l'entreprise fait mal son job, on la vire du réseau. Simple. Chaque partenaire sait qu'une seule prestation refusée = exclusion définitive. Votre tranquillité > leur ego.",
+      "847 locataires ont validé leur état des lieux ce mois via Nettooyage. Taux de validation premier passage : 94%. Les 6% restants ? Re-passage effectué dans les 24h SANS frais supplémentaires. ZÉRO client n'a dû payer 2 fois. C'est notre promesse.",
     ],
   },
   whyDifferent: {
-    title: "La SEULE plateforme qui garantit votre caution — pas juste un devis",
+    title: "La SEULE plateforme qui garantit la validation — pas juste un devis",
     benefits: [
       {
         icon: "CheckCircle2",
         title: "Garantie re-passage GRATUIT jusqu'à validation 100%",
-        description: "Votre régie trouve un problème après le nettoyage ? L'entreprise DOIT repasser sans facturer. C'est écrit noir sur blanc dans notre contrat partenaire. Vous ne perdez JAMAIS votre caution à cause d'un travail bâclé. JAMAIS.",
+        description: "Votre régie trouve un problème ? L'entreprise DOIT repasser sans facturer. C'est écrit noir sur blanc dans notre contrat partenaire. Vous ne payez JAMAIS 2 fois pour le même nettoyage. JAMAIS.",
       },
       {
         icon: "Target",
         title: "On vire les entreprises qui font mal leur travail",
-        description: "Une seule mauvaise prestation = exclusion définitive du réseau Nettooyage. Les entreprises le savent. Résultat ? Elles font le job à 200% du premier coup parce qu'elles veulent rester dans notre réseau. Votre caution > leur ego.",
+        description: "Une seule prestation refusée = exclusion définitive du réseau Nettooyage. Les entreprises le savent. Résultat ? Elles font le job à 200% du premier coup pour rester dans notre réseau. Votre argent > leur ego.",
       },
       {
         icon: "Target",
         title: "1 seule entreprise triée sur le volet (pas 10 cowboys)",
-        description: "On analyse 10+ critères (canton, urgence, surface, spécialité) pour trouver L'entreprise qui MATCHE parfaitement. UNE seule vous contacte. Celle qui a prouvé qu'elle fait le job. Pas un annuaire de nettoyeurs amateurs.",
+        description: "On analyse 10+ critères (canton, urgence, surface, spécialité) pour trouver L'entreprise qui MATCHE. UNE seule vous contacte. Celle qui a prouvé qu'elle valide les états des lieux. Pas un annuaire de nettoyeurs amateurs.",
       },
     ],
   },
@@ -231,7 +231,7 @@ export const copyA: CopyContent = {
       { text: "Supprimer mes données", href: "#delete" },
     ],
     disclaimer: "Plateforme de mise en relation. Nous ne réalisons aucun nettoyage.",
-    copyright: "© 2026 Nettooyage.ch — Votre caution, notre garantie",
+    copyright: "© 2026 Nettooyage.ch — Validation garantie ou re-passage gratuit",
   },
   form: {
     step1Title: "Analysons vos besoins précis",
