@@ -95,7 +95,7 @@ export const copyA: CopyContent = {
     subheadline: "Votre régie trouve une trace ? Des joints pas nets ? Avec Nettooyage, l'entreprise DOIT repasser gratuitement jusqu'à validation complète. Fini les galères avec les nettoyeurs qui bâclent et disparaissent.",
     valueProposition: "On sélectionne L'entreprise qui accepte de refaire GRATUITEMENT jusqu'à ce que votre régie valide. Pas de frais cachés, pas de 2ème facture.",
     cta: "Trouver mon entreprise avec garantie →",
-    microcopy: "✓ Garantie re-passage gratuit · 1 seule entreprise certifiée · 94% de validation du premier coup",
+    microcopy: "✓ Garantie re-passage gratuit · 1 seule entreprise certifiée · 100% de validation garantie",
   },
   problem: {
     title: "Les 3 cauchemars qui coûtent cher en fin de bail",
@@ -123,7 +123,7 @@ export const copyA: CopyContent = {
     content: [
       "On SÉLECTIONNE uniquement les entreprises qui acceptent notre garantie béton : re-passage GRATUIT jusqu'à validation 100% de votre régie. Si la régie trouve une trace, un oubli, un problème — l'entreprise DOIT revenir sans facturer un centime de plus. C'est dans le contrat.",
       "Notre rôle ? Garantir le résultat final. Si l'entreprise fait mal son job, on la vire du réseau. Simple. Chaque partenaire sait qu'une seule prestation refusée = exclusion définitive. Votre tranquillité > leur ego.",
-      "847 locataires ont validé leur état des lieux ce mois via Nettooyage. Taux de validation premier passage : 94%. Les 6% restants ? Re-passage effectué dans les 24h SANS frais supplémentaires. ZÉRO client n'a dû payer 2 fois. C'est notre promesse.",
+      "847 locataires ont validé leur état des lieux ce mois via Nettooyage. 100% de validation finale. Comment ? Si la régie refuse, l'entreprise repasse jusqu'à validation — sans frais supplémentaires. ZÉRO client n'a dû payer 2 fois. C'est notre promesse.",
     ],
   },
   whyDifferent: {
